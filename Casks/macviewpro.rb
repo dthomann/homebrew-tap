@@ -13,6 +13,7 @@ cask "macviewpro" do
   end
 
   depends_on macos: :sonoma
+  auto_updates true
 
   app "MacViewPro.app"
 
